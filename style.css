@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&family=Raleway:wght@300;400;500&display=swap');
+
+body{
+  background: #f8f8f8;
+  font-family: "Raleway";
+  font-weight: 300px;
+  color: #13315C;
+}
+
+h1, h2{
+  font-family: "Montserrat";
+  font-size : 28px;
+  color :#415A77;
+  font-weight: 500;
+}
+
+#follow-me{
+  color : ##415A77;
+}
+
+a{
+  color : #1B998B;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #1d796e;
+  transition: 0.3s;
+}
+
+.card{
+  background: white;
+  margin : auto;
+  margin-bottom: 20px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+
+.container{
+  margin: 40px 300px;
+}
+
+.image-circle{
+  border-radius: 50%;
+  border: 1px solid #fffefe;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline;
+}
+
+.media-link{
+  font-size: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.buton-green{
+  background: #1B998B;
+  color: white;
+  padding: 20px 30px;
+  border-radius: inherit;
+  margin: 20px;
+}
+
+.buton-green:hover{
+  background: #1d796e;
+  color: white;
+  padding: 20px 30px;
+  border-radius: inherit;
+  margin: 20px;
+  transition: 0.3s;
+}
+
+.card p{
+  margin-bottom: 45px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
